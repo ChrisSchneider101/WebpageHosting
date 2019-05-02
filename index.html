@@ -4,7 +4,14 @@
 </header>
 
 <body style="background-color: rgb(200, 255, 200)">
-<p>yo</p>
-<a href="next_page.html">linked_page</a>
+	<p>yo</p>
+	<a href="next_page.html">linked_page</a>
 </body>
+	
+	<script>
+		var appended = document.createElement("p")
+		var textnode = document.createTextNode("node with text!")
+		appened.appendChild(textnode)
+		document.appendChild(appended)
+	</script>
 </html>
